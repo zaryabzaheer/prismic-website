@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/Mosaic';
+
+export default {
+  title: 'slices/Mosaic'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1589321578146-4c1ba445cc88"},"fullwidth":false,"height_width_ratio":"bark","vimeo_video":{"embed_url":"https://twitter.com/timbenniks/status/1304146886832594944","author_name":"Tim Benniks","author_url":"https://twitter.com/timbenniks","html":"<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">I’ve been diving deep on <a href=\"https://twitter.com/prismicio?ref_src=twsrc%5Etfw\">@prismicio</a> <a href=\"https://twitter.com/hashtag/slicemachine?src=hash&amp;ref_src=twsrc%5Etfw\">#slicemachine</a> today. I made all my own components and I used custom slices. It works like a charm with <a href=\"https://twitter.com/nuxt_js?ref_src=twsrc%5Etfw\">@nuxt_js</a>. Also\": I’m coding with this view. <a href=\"https://t.co/F0I8X9gz39\">pic.twitter.com/F0I8X9gz39</a></p>&mdash; Tim Benniks (@timbenniks) <a href=\"https://twitter.com/timbenniks/status/1304146886832594944?ref_src=twsrc%5Etfw\">September 10, 2020</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"http://www.twitter.com/","version":"1.0"},"video_link":{"link_type":"Web","url":"https://slicemachine.dev"},"mute_and_autoplay":false,"loop":true,"controls":false}],"primary":{"title":"grandfather","description":[{"type":"paragraph","text":"Anim non duis esse enim. Est amet tempor sit adipisicing et consectetur pariatur eu occaecat elit reprehenderit Lorem laboris.","spans":[]}]},"slice_type":"collage","id":"_Default"}} />
+_Default.storyName = ''

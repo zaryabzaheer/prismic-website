@@ -1,0 +1,102 @@
+{
+  "id": "collage",
+  "type": "SharedSlice",
+  "name": "Mosaic",
+  "description": "Collage",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Collage",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your feature"
+          }
+        }
+      },
+      "items": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "fullwidth": {
+          "type": "Boolean",
+          "config": {
+            "label": "Fullwidth",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "height_width_ratio": {
+          "type": "Text",
+          "config": {
+            "label": "Height/Width Ratio",
+            "placeholder": ""
+          }
+        },
+        "vimeo_video": {
+          "type": "Embed",
+          "config": {
+            "label": "Vimeo Video",
+            "placeholder": ""
+          }
+        },
+        "video_link": {
+          "type": "Link",
+          "config": {
+            "label": "Custom Video Link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "mute_and_autoplay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Mute and Autoplay Custom Video",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "loop": {
+          "type": "Boolean",
+          "config": {
+            "label": "Loop Custom Video",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        },
+        "controls": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Custom Video Controls",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

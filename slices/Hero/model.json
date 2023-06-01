@@ -1,0 +1,99 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "description": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Hero",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+            "labels": [
+              "icon"
+            ]
+          }
+        },
+        "mobile_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Mobile Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "video": {
+          "type": "Embed",
+          "config": {
+            "label": "Video",
+            "placeholder": ""
+          }
+        },
+        "background": {
+          "type": "Image",
+          "config": {
+            "label": "Background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "lottie_json": {
+          "type": "Text",
+          "config": {
+            "label": "Lottie Json",
+            "placeholder": ""
+          }
+        },
+        "lottie_frames": {
+          "type": "Number",
+          "config": {
+            "label": "Lottie Frames",
+            "placeholder": ""
+          }
+        },
+        "lottie_speed": {
+          "type": "Number",
+          "config": {
+            "label": "Lottie Speed",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "icon": {
+          "type": "Image",
+          "config": {
+            "label": "Icon",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "margin_left": {
+          "type": "Number",
+          "config": {
+            "label": "Margin Left (px)",
+            "placeholder": ""
+          }
+        },
+        "margin_right": {
+          "type": "Number",
+          "config": {
+            "label": "Margin Right (px)",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {
+        "year": "balloon",
+        "award": "imagine",
+        "category": "summer",
+        "category_mobile": "silly",
+        "client": "ball",
+        "project": "weak"
+      }
+    ],
+    "primary": {
+      "title": "log",
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Magna voluptate aliqua proident consectetur.",
+          "spans": []
+        }
+      ]
+    },
+    "slice_type": "accomplishments"
+  }
+]

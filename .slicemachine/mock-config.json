@@ -1,0 +1,242 @@
+{
+  "_cts": {
+    "homepage": {},
+    "projects": {},
+    "project": {},
+    "settings": {},
+    "menu": {},
+    "footer": {},
+    "layout": {
+      "nav_text": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "cookies_description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "page": {},
+    "staff": {},
+    "team": {}
+  },
+  "slices": {
+    "Hero": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "mobile_title": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "Services": {
+      "default": {
+        "primary": {},
+        "items": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Projects": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Clients": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Team": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "TeamPreview": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "MenuList": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Story": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "heading": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Location": {
+      "default": {
+        "primary": {
+          "heading": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Logo": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "ImageSlider": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Accomplishments": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Service": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ProjectHero": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "ProjectDescription": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Image": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Collage": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "TwoImages": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "NextProject": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Footer": {
+      "default": {
+        "primary": {
+          "location": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "FooterBottom": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "ProjectsPreview": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Member": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "VideoSingle": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "VideoSlider": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "TwoElements": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Richtext": {
+      "default": {
+        "primary": {},
+        "items": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "LargeImage": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Mosaic": {}
+  }
+}

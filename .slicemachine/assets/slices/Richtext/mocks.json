@@ -1,0 +1,19 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "Aliqua non voluptate deserunt aliquip quis reprehenderit eiusmod. Nostrud in non nulla officia adipisicing aliquip laboris labore eu minim elit incididunt.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {},
+    "slice_type": "richtext"
+  }
+]

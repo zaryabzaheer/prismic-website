@@ -1,0 +1,28 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {
+        "name": "examine",
+        "title": "unless",
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Dolore tempor ad officia quis culpa eu adipisicing in nostrud cillum sunt sint.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": "line",
+      "link_text": "writer",
+      "link": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      }
+    },
+    "slice_type": "services"
+  }
+]

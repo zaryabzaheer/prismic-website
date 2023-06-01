@@ -1,0 +1,148 @@
+{
+  "id": "project",
+  "label": "Project",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Route",
+          "placeholder": ""
+        }
+      },
+      "navigation": {
+        "type": "Select",
+        "config": {
+          "label": "Navigation",
+          "placeholder": "",
+          "options": [
+            "Light",
+            "Dark"
+          ],
+          "default_value": "Light"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "two_images": {
+              "type": "SharedSlice"
+            },
+            "project_hero": {
+              "type": "SharedSlice"
+            },
+            "project_description": {
+              "type": "SharedSlice"
+            },
+            "next_project": {
+              "type": "SharedSlice"
+            },
+            "image_slider": {
+              "type": "SharedSlice"
+            },
+            "image": {
+              "type": "SharedSlice"
+            },
+            "collage": {
+              "type": "SharedSlice"
+            },
+            "video_single": {
+              "type": "SharedSlice"
+            },
+            "video_slider": {
+              "type": "SharedSlice"
+            },
+            "large_image": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "title_tag": {
+        "type": "Text",
+        "config": {
+          "label": "Title Tag",
+          "placeholder": ""
+        }
+      },
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": ""
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": ""
+        }
+      },
+      "seo_meta_image": {
+        "type": "Image",
+        "config": {
+          "label": "Meta Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "Preview": {
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Short Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "label": "Preview Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "Header": {
+      "header_text_color": {
+        "type": "Color",
+        "config": {
+          "label": "Text Color",
+          "placeholder": ""
+        }
+      },
+      "logo_overwrite": {
+        "type": "Image",
+        "config": {
+          "label": "Logo Overwrite",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "lottie_logo_overwrite": {
+        "type": "Text",
+        "config": {
+          "label": "Lottie Logo Overwrite",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}

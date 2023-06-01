@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'L10';
+    src: url(../public/fonts/L10-Regular.otf) format('opentype');
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'L10';
+    src: url(../public/fonts/L10-Medium.otf) format('opentype');
+    font-style: normal;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'L10';
+    src: url(../public/fonts/L10-SemiBold.otf) format('opentype');
+    font-style: normal;
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'L10';
+    src: url(../public/fonts/L10-Bold.otf) format('opentype');
+    font-style: normal;
+    font-weight: 700;
+  }
+}
+
+/* Regular font-weight is not supported by the font. Numbers are used instead. 
+    100 = Light
+    200 = Light
+    300 = Light
+    400 = Regular
+    500 = Medium/Semibold
+    600 = Medium/Semibold
+    700 = Bold
+    800 = Black
+    900 = Black
+*/
+
+body {
+  font-family: 'L10', sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 138.5%;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.richtext p {
+  margin-bottom: 15px;
+}
+
+.richtext a:hover, .richtext-smaller a:hover {
+  opacity: 0.80;
+}
+
+.grey {
+  color: #969595;
+}
+
+.grey-bg {
+  background-color: #969595;
+}
+
+.accent {
+  color: #E8FF85;
+}
+
+.accent-bg {
+  background-color: #E8FF85;
+}
+
+.accent-border {
+  border-color: #E8FF85;
+}
+
+.accent-richtext a {
+  color: #E8FF85;
+}
+
+.beige {
+  color: #D9DFC7;
+}
+
+.beige-border {
+  border-color: #D9DFC7;
+}
+
+.lottie * {
+  overflow: visible!important;
+}

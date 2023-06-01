@@ -1,0 +1,78 @@
+{
+  "id": "accomplishments",
+  "type": "SharedSlice",
+  "name": "Accomplishments",
+  "description": "Accomplishments",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Accomplishments",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {
+        "year": {
+          "type": "Text",
+          "config": {
+            "label": "Year",
+            "placeholder": ""
+          }
+        },
+        "award": {
+          "type": "Text",
+          "config": {
+            "label": "Award",
+            "placeholder": ""
+          }
+        },
+        "category": {
+          "type": "Text",
+          "config": {
+            "label": "Category",
+            "placeholder": ""
+          }
+        },
+        "category_mobile": {
+          "type": "Text",
+          "config": {
+            "label": "Category Mobile",
+            "placeholder": ""
+          }
+        },
+        "client": {
+          "type": "Text",
+          "config": {
+            "label": "Client",
+            "placeholder": ""
+          }
+        },
+        "project": {
+          "type": "Text",
+          "config": {
+            "label": "Project",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

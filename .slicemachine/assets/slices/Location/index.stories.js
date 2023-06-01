@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/Location';
+
+export default {
+  title: 'slices/Location'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{"title":"doctor","description":[{"type":"paragraph","text":"Nulla elit fugiat proident consectetur sit nisi pariatur occaecat mollit amet non velit aliquip sint in. Et ea fugiat ipsum eu ad. Excepteur consectetur aute duis cupidatat irure officia id incididunt cillum ullamco nisi irure ad.","spans":[]}],"link_text":"pot","location":{"latitude":48.8703712,"longitude":2.3865198},"image":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1531771686035-25f47595c87a"}}],"primary":{"title":"happened","heading":[{"type":"paragraph","text":"Sunt ullamco ut do cillum enim consectetur veniam amet ad ad qui ea. Fugiat aute sit sunt esse ut quis occaecat in sint anim eu.","spans":[]}]},"slice_type":"location","id":"_Default"}} />
+_Default.storyName = ''

@@ -1,0 +1,63 @@
+{
+  "id": "project_hero",
+  "type": "SharedSlice",
+  "name": "ProjectHero",
+  "description": "ProjectHero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ProjectHero",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          }
+        },
+        "subheading": {
+          "type": "Text",
+          "config": {
+            "label": "Subheading",
+            "placeholder": ""
+          }
+        },
+        "background": {
+          "type": "Image",
+          "config": {
+            "label": "Background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "heading_color": {
+          "type": "Color",
+          "config": {
+            "label": "Heading Color",
+            "placeholder": ""
+          }
+        },
+        "subheading_color": {
+          "type": "Color",
+          "config": {
+            "label": "Subheading Color",
+            "placeholder": ""
+          }
+        },
+        "mobile_background": {
+          "type": "Image",
+          "config": {
+            "label": "Mobile Background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/ProjectsPreview';
+
+export default {
+  title: 'slices/ProjectsPreview'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{"project":{"id":"mock_document_id","link_type":"Document","type":"project","tags":[],"lang":"en-us","slug":null,"first_publication_date":"1970-01-01T00:00:01+0000","last_publication_date":"1970-01-01T01:00:00+0000"},"project_2":{"id":"mock_document_id","link_type":"Document","type":"project","tags":[],"lang":"en-us","slug":null,"first_publication_date":"1970-01-01T00:00:01+0000","last_publication_date":"1970-01-01T01:00:00+0000"},"project_3":{"id":"mock_document_id","link_type":"Document","type":"project","tags":[],"lang":"en-us","slug":null,"first_publication_date":"1970-01-01T00:00:01+0000","last_publication_date":"1970-01-01T01:00:00+0000"},"display":"Single"}],"primary":{"title":"gas","link_text":"cotton","link":{"link_type":"Web","url":"https://prismic.io"}},"slice_type":"projects","id":"_Default"}} />
+_Default.storyName = ''

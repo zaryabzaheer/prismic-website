@@ -1,0 +1,88 @@
+{
+  "id": "projects",
+  "type": "SharedSlice",
+  "name": "ProjectsPreview",
+  "description": "Projects",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Projects",
+      "primary": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "link_text": {
+          "type": "Text",
+          "config": {
+            "label": "Link Text",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        }
+      },
+      "items": {
+        "project": {
+          "type": "Link",
+          "config": {
+            "label": "Project",
+            "select": "document",
+            "customtypes": [
+              "project"
+            ]
+          }
+        },
+        "project_2": {
+          "type": "Link",
+          "config": {
+            "label": "Project",
+            "select": "document",
+            "customtypes": [
+              "project"
+            ]
+          }
+        },
+        "project_3": {
+          "type": "Link",
+          "config": {
+            "label": "Project",
+            "select": "document",
+            "customtypes": [
+              "project"
+            ]
+          }
+        },
+        "display": {
+          "type": "Select",
+          "config": {
+            "label": "Display",
+            "placeholder": "",
+            "options": [
+              "Single",
+              "Double",
+              "Double Block + Single",
+              "Double Flex + Single",
+              "Single + Double Block",
+              "Single + Double Flex"
+            ],
+            "default_value": "Single"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "layout",
+  "label": "Layout",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "site_background": {
+        "type": "Color",
+        "config": {
+          "label": "Site Background",
+          "placeholder": ""
+        }
+      },
+      "accent_color": {
+        "type": "Color",
+        "config": {
+          "label": "Accent Color",
+          "placeholder": ""
+        }
+      },
+      "favicon": {
+        "type": "Image",
+        "config": {
+          "label": "Favicon",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "SEO": {
+      "seo_title_tag": {
+        "type": "Text",
+        "config": {
+          "label": "Title Tag",
+          "placeholder": ""
+        }
+      },
+      "seo_meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": ""
+        }
+      },
+      "seo_meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": ""
+        }
+      },
+      "seo_site_name": {
+        "type": "Text",
+        "config": {
+          "label": "Site Name",
+          "placeholder": ""
+        }
+      },
+      "seo_keywords": {
+        "type": "Text",
+        "config": {
+          "label": "Keywords",
+          "placeholder": ""
+        }
+      },
+      "seo_meta_image": {
+        "type": "Image",
+        "config": {
+          "label": "Meta Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "Menu": {
+      "nav_text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Text",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "slices2": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "menu_list": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Footer": {
+      "slices3": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "footer": {
+              "type": "SharedSlice"
+            },
+            "footer_bottom": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Settings": {},
+    "Cookies": {
+      "cookies_title": {
+        "type": "Text",
+        "config": {
+          "label": "Title",
+          "placeholder": ""
+        }
+      },
+      "cookies_description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "cookies_button_text": {
+        "type": "Text",
+        "config": {
+          "label": "Button Text",
+          "placeholder": ""
+        }
+      },
+      "cookies_link": {
+        "type": "Link",
+        "config": {
+          "label": "Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "cookies_link_text": {
+        "type": "Text",
+        "config": {
+          "label": "Link Text",
+          "placeholder": ""
+        }
+      },
+      "cookies_image": {
+        "type": "Image",
+        "config": {
+          "label": "Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    },
+    "Header": {
+      "elements_color": {
+        "type": "Color",
+        "config": {
+          "label": "Elements Color",
+          "placeholder": ""
+        }
+      },
+      "dark_elements_color": {
+        "type": "Color",
+        "config": {
+          "label": "Dark Elements Color",
+          "placeholder": ""
+        }
+      },
+      "logo": {
+        "type": "Image",
+        "config": {
+          "label": "Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "dark_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Dark Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "logo_lottie": {
+        "type": "Text",
+        "config": {
+          "label": "Logo Lottie",
+          "placeholder": ""
+        }
+      },
+      "dark_logo_lottie": {
+        "type": "Text",
+        "config": {
+          "label": "Dark Logo Lottie",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
